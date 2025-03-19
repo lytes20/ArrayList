@@ -86,12 +86,12 @@ orderList.remove(order2);
 
 ## **Time Complexity Analysis** ⏳
 
-| Operation                 | Time Complexity      |
-| ------------------------- | -------------------- |
-| **Adding** at the end     | **O(1)** (amortized) |
-| **Get** at an index       | **O(1)** (amortized) |
-| **Inserting** at an index | **O(n)**             |
-| **Removing** an element   | **O(n)**             |
+| Operation                 | Time Complexity |
+| ------------------------- | --------------- |
+| **Adding** at the end     | **O(1)**        |
+| **Get** at an index       | **O(1)**        |
+| **Inserting** at an index | **O(n)**        |
+| **Removing** an element   | **O(n)**        |
 
 ## **Contributing**
 
