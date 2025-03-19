@@ -64,14 +64,21 @@ orderList.add(order1);
 orderList.add(order2);
 ```
 
-### **3. Inserting an Order at a Specific Index**
+### **3. Getting an Order from the List**
+
+```java
+orderList.get(0);
+orderList.get(1);
+```
+
+### **4. Inserting an Order at a Specific Index**
 
 ```java
 Order order3 = new Order(3, "Charlie", new String[]{"Headphones"});
 orderList.insert(order3, 1);
 ```
 
-### **4. Removing an Order**
+### **5. Removing an Order**
 
 ```java
 orderList.remove(order2);
@@ -82,6 +89,7 @@ orderList.remove(order2);
 | Operation                 | Time Complexity      |
 | ------------------------- | -------------------- |
 | **Adding** at the end     | **O(1)** (amortized) |
+| **Get** at an index       | **O(1)** (amortized) |
 | **Inserting** at an index | **O(n)**             |
 | **Removing** an element   | **O(n)**             |
 

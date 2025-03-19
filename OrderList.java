@@ -20,6 +20,12 @@ public class OrderList {
         return true;
     }
 
+    public Order get(int index) {
+        if (index < 0 || index >= size)
+            throw new IndexOutOfBoundsException("Index " + index + " is out of bounds");
+        return orders[index];
+    }
+
     public boolean insert(Order order, int pos) {
         if (order == null) // validating the order, you can do more order validations
             return false;
